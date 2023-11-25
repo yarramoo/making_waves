@@ -1,8 +1,8 @@
-use crate::Pulse;
-use sound_wave::ideal_frequency;
+use crate::pulse::Pulse;
+use crate::util::ideal_frequency;
 
 #[allow(dead_code)]
-pub(crate) fn spidermannnnnn(volume: f32) -> Vec<Pulse> {
+pub fn spidermannnnnn(volume: f32) -> Vec<Pulse> {
     vec![
         Pulse::new(ideal_frequency(54), 0.3, volume),
         Pulse::new(ideal_frequency(57), 0.2, volume),
@@ -26,7 +26,7 @@ pub(crate) fn spidermannnnnn(volume: f32) -> Vec<Pulse> {
 }
 
 #[allow(dead_code)]
-pub(crate) fn happy_birthday(volume: f32) -> Vec<Pulse> {
+pub fn happy_birthday(volume: f32) -> Vec<Pulse> {
     vec![
         Pulse::new(ideal_frequency(47), 0.3, volume),
         Pulse::new(0., 0.05, 0.),
