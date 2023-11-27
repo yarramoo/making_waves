@@ -8,4 +8,5 @@ Cute little library for making music out of synth waves. Currently you can speci
 - Experiment with percussive sounds
 - Add support for different wave forms (currently just sin wave)
 - Add support for reading a song specification from a file
-- Investigate better ways of encoding sound data  
+- Investigate better ways of encoding sound data
+- Could be fun to make scales and some kind of randomiser that makes tunes along a chosen scale...
